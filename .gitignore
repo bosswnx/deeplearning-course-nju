@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Defects4J framework (external dependency, ~1GB)
+defects4j/
+defects4j-repos.zip
+
+# Runtime artifacts
+checkouts/
+results/
+experiment.log
+wget-log
+
+# Extracted data (regenerated each run)
+data/bugs.json
+
+# IDE / Editor
+.workbuddy/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
